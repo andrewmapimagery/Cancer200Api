@@ -553,8 +553,8 @@ final public class FormSectionDescriptor {
   public init(headerTitle: Swift.String?, footerTitle: Swift.String?)
   @objc deinit
 }
-@_hasMissingDesignatedInitializers open class Cancer200Api {
-  public static var instance: Cancer200Api.Cancer200Api
+@_hasMissingDesignatedInitializers open class Cancer200 {
+  public static var instance: Cancer200Api.Cancer200
   public class func initApi()
   @objc deinit
   public func stopTracking()
