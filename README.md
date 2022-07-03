@@ -11,17 +11,17 @@
 * [iOS 12.0](https://wikipedia.org/wiki/IOS_12) or later.
 * [Xcode 12.0](https://developer.apple.com/xcode) or later.
 
-## Installation
+## Integration of the Api
 ```swift
 dependencies: [
     .package(url: "https://github.com/andrewmapimagery/Cancer200Api.git", .upToNextMinor(from: "2022.0.0"))
 ]
 ```
 
-## Alternative Installation
-Alternativly using Xcode add a package dependency to https://github.com/andrewmapimagery/Cancer200Api.git
+## Alternative Integration
+Alternativly using the Xcode UI under Progject -> Packaged Dependencies add a package dependency to https://github.com/andrewmapimagery/Cancer200Api.git
 
-You may also have to manually add the following dependencies that are required for the Cancer200Api framework.  You can see this in the example program provided in the Tests directory of the SPM repo.
+With this style of integration You may also have to manually add the following dependencies that are required for the Cancer200Api framework.  You can see this in the example program provided in the Tests directory of the SPM repo.
 
 ```
 dependencies: [
