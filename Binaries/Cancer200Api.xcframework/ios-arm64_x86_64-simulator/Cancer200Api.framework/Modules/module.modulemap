@@ -1,0 +1,4 @@
+framework module Cancer200Api {
+  header "Cancer200Api-Swift.h"
+  requires objc
+}

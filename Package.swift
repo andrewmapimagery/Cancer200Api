@@ -12,6 +12,9 @@ let package = Package(
         .library(
             name: "Cancer200Api",
             targets: ["Cancer200Api"]),
+        .library(
+            name: "Cancer200ApiLocal",
+            targets: ["Cancer200ApiLocal"]),
     ],
     dependencies: [
         .package(
@@ -29,7 +32,9 @@ let package = Package(
     ],
     targets: [
         .binaryTarget(name: "Cancer200Api",
-         url: "https://github.com/andrewmapimagery/Cancer200Api/Cancer200api.xcframework.zip",
-         checksum: "5fea79a480ea39de725e058ca547357fa87e672d49d7d178691b0dfaab0af863")
+         url: "https://github.com/andrewmapimagery/Cancer200Api/Cancer200Api.xcframework.zip",
+         checksum: "5fea79a480ea39de725e058ca547357fa87e672d49d7d178691b0dfaab0af863"),
+        .binaryTarget(name: "Cancer200ApiLocal",
+         path: "Binaries/Cancer200Api.xcframework")
     ]
 )
