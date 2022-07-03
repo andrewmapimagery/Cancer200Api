@@ -9,7 +9,6 @@ let package = Package(
         .iOS(.v12)
     ],
     products: [
-        // Products define the executables and libraries a package produces, and make them visible to other packages.
         .library(
             name: "Cancer200Api",
             targets: ["Cancer200Api"]),
@@ -30,7 +29,7 @@ let package = Package(
     ],
     targets: [
         .binaryTarget(name: "Cancer200Api",
-         url: "https://github.com/andrewmapimagery/Cancer200Api/Cancer200Api.zip",
-         checksum: "5fea79a480ea39de725e058ca547357fa87e672d49d7d178691b0dfaab0af863"),
+         url: "https://github.com/andrewmapimagery/Cancer200Api/cancer200api-xcframework.zip",
+         checksum: "5fea79a480ea39de725e058ca547357fa87e672d49d7d178691b0dfaab0af863")
     ]
 )
