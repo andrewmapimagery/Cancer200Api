@@ -5,6 +5,9 @@ import PackageDescription
 
 let package = Package(
     name: "Cancer200Api",
+    platforms: [
+        ..iOS(.v12)
+    ],
     products: [
         // Products define the executables and libraries a package produces, and make them visible to other packages.
         .library(
@@ -16,13 +19,8 @@ let package = Package(
         // .package(url: /* package url */, from: "1.0.0"),
     ],
     targets: [
-        // Targets are the basic building blocks of a package. A target can define a module or a test suite.
-        // Targets can depend on other targets in this package, and on products in packages this package depends on.
-        .target(
-            name: "Cancer200Api",
-            dependencies: []),
-        .testTarget(
-            name: "Cancer200ApiTests",
-            dependencies: ["Cancer200Api"]),
+        .binaryTarget(name: "Cancer200Api",
+         url: "https://github.com]/andrewmapimagery/Cancer200Api.git/Cancer200Api.xcframework.zip",
+         checksum: "e7f75cb009eb4a1b8c56a1268b034f2c89863f6a80de6dd9254c1aaa768991e4"),
     ]
 )
