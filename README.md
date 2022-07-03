@@ -21,7 +21,7 @@ dependencies: [
 ## Alternative Installation
 Alternativly using Xcode add a package dependency to https://github.com/andrewmapimagery/Cancer200Api.git
 
-## You may also have to manually add the following dependencies that are required for the Cancer200Api framework.  You can see this in the example program provided in the Tests directory of the SPM repo.
+You may also have to manually add the following dependencies that are required for the Cancer200Api framework.  You can see this in the example program provided in the Tests directory of the SPM repo.
 
 ```
 dependencies: [
