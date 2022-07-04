@@ -110,11 +110,12 @@ An exception is required for the mapswim.net domain to allow http loads from end
 The following location privacy descriptions need to be set up as the map requires all of these permissions including background.
 
 ```
-	<string>Location services 'Always' are required if you want to show your position on the map when the app is in background. Location services 'While Using the App' are required if you want to use the app to navigate using  map.</string>
-	<key>NSLocationAlwaysUsageDescription</key>
-	<string>Location services 'Always' are required if you want to share your position on the map when the app is in background.</string>
-	<key>NSLocationWhenInUseUsageDescription</key>
-	<string>Location services 'While Using the App' are required if you want to use the app to navigate using the dashboard or map.</string>
+       <key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+        <string>Location services 'Always' are required if you want to show your position on the map when the app is in background. Location services 'While Using the App' are required if you want to use the app to navigate using the dashboard or map.</string>
+        <key>NSLocationAlwaysUsageDescription</key>
+        <string>Location services 'Always' are required if you want to share your position on the map when the app is in background.</string>
+        <key>NSLocationWhenInUseUsageDescription</key>
+        <string>Location services 'While Using the App' are required if you want to use the app to navigate using the dashboard or map.</string>
 ```
 
 
