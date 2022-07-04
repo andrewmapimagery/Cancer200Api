@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		kjW6DmSRy2klJBK1yzvCJqwk8FQ=
+		JkUqUwGL5q5y4qzPvXl4pIG2csg=
 		</data>
 		<key>Contents.json</key>
 		<data>
@@ -22,31 +22,31 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		8hc1fFUtqooPWO4Hjabr3kwhrqU=
+		k+jpiQUqnyW3ODjeZ63TNlH6vLc=
 		</data>
 		<key>Modules/Cancer200Api.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		Twea797iWAGhlECg0e6XoFKxydg=
+		nQsjd9zs88l5BB/iG9192YpYq84=
 		</data>
 		<key>Modules/Cancer200Api.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		a1xcPADROB+Ix8KbLJHA6JjJxnw=
+		F6xnZghElP9gZhauWHT55FOkLlo=
 		</data>
 		<key>Modules/Cancer200Api.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		vEPDJisn24Pxpqr1lEkD3jrgy5Y=
+		8kk2H+9IlHty4j4oWc5TmndWlBg=
 		</data>
 		<key>Modules/Cancer200Api.swiftmodule/arm64.swiftdoc</key>
 		<data>
-		Twea797iWAGhlECg0e6XoFKxydg=
+		nQsjd9zs88l5BB/iG9192YpYq84=
 		</data>
 		<key>Modules/Cancer200Api.swiftmodule/arm64.swiftinterface</key>
 		<data>
-		a1xcPADROB+Ix8KbLJHA6JjJxnw=
+		F6xnZghElP9gZhauWHT55FOkLlo=
 		</data>
 		<key>Modules/Cancer200Api.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		vEPDJisn24Pxpqr1lEkD3jrgy5Y=
+		8kk2H+9IlHty4j4oWc5TmndWlBg=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -111,7 +111,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			H4iHVrc+oKWr5eB7l6x8kdtboolu/qlPeiKfJXN9aVU=
+			ME5IE3ReH3TBvScKETpVA8+S4mFvEU8x62bNVxMJnA4=
 			</data>
 		</dict>
 		<key>Contents.json</key>
@@ -139,42 +139,42 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			4IsO52MV7TuIvBgnyM2hd8LOx0E6d99LMb73pcvQSZA=
+			ECCLWnvFbOM5uaOrvSiMpNKsJ4DXf6Tfr9SewcX3QrY=
 			</data>
 		</dict>
 		<key>Modules/Cancer200Api.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ppft0BHxoLeXwLNYuM3nzn37U2IWMadJvf7Ds7agkcA=
+			+YTLCzuaQ6pechuCeuk6eQ5o5BGtimcN8hKrm2ol+xE=
 			</data>
 		</dict>
 		<key>Modules/Cancer200Api.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			yptixVUci3HQ/lbsG2mQpZeX6BrlNyPQE/tJKj7u1DA=
+			rC/Uqr5tdvej7s8FDAo4uNxvmGoHJAp7TkYWeBcDQhE=
 			</data>
 		</dict>
 		<key>Modules/Cancer200Api.swiftmodule/arm64.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			4IsO52MV7TuIvBgnyM2hd8LOx0E6d99LMb73pcvQSZA=
+			ECCLWnvFbOM5uaOrvSiMpNKsJ4DXf6Tfr9SewcX3QrY=
 			</data>
 		</dict>
 		<key>Modules/Cancer200Api.swiftmodule/arm64.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ppft0BHxoLeXwLNYuM3nzn37U2IWMadJvf7Ds7agkcA=
+			+YTLCzuaQ6pechuCeuk6eQ5o5BGtimcN8hKrm2ol+xE=
 			</data>
 		</dict>
 		<key>Modules/Cancer200Api.swiftmodule/arm64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			yptixVUci3HQ/lbsG2mQpZeX6BrlNyPQE/tJKj7u1DA=
+			rC/Uqr5tdvej7s8FDAo4uNxvmGoHJAp7TkYWeBcDQhE=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
