@@ -5,8 +5,7 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/andrewmapimagery/Cancer200Api",
       "state" : {
-        "branch" : "main",
-        "revision" : "a8a5299aed2b1378ae1f2476881af0ee82ef23f1"
+        "revision" : "1b0281fa27f54c842f7a17c9cf3bbb2f32875f99"
       }
     },
     {
