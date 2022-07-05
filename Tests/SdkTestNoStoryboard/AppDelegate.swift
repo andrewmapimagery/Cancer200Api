@@ -13,11 +13,9 @@ import MapKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
     
     var window: UIWindow?
-    var initialViewController :UIViewController?
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         window = UIWindow()
-        let mapView = MKMapView()
-        let viewController = MapViewController(mapView: mapView)
+        let viewController = MapViewController()
         let navigationController = UINavigationController(rootViewController: viewController)
         self.window?.rootViewController = navigationController
         self.window?.makeKeyAndVisible()
