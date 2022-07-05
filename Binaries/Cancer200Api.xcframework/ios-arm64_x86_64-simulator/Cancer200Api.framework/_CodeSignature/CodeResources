@@ -18,7 +18,7 @@
 		</data>
 		<key>Headers/Cancer200Api-Swift.h</key>
 		<data>
-		aqROjOioLiWjZObrxq+HwQtRUbU=
+		OVlXeA7h0lw6e+LztaNqnP9Z4Xc=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -30,11 +30,11 @@
 		</data>
 		<key>Modules/Cancer200Api.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		VC1YSGbTpr9TZpt7/X8VbE2sZwY=
+		U2JL4AS+HKM0AmjSP0nAxdgEY6o=
 		</data>
 		<key>Modules/Cancer200Api.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		RosYdp0yhBrhDS+jIefZzuuSELw=
+		j7EFnHt0kgmc46hCvJSf2QIZal8=
 		</data>
 		<key>Modules/Cancer200Api.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -42,11 +42,11 @@
 		</data>
 		<key>Modules/Cancer200Api.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		dj9IOfNOK5e6T0N+waqdE6lsbC4=
+		K/u/zdrNaMHvhwY5TYpYiKffYiY=
 		</data>
 		<key>Modules/Cancer200Api.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		RgH9URdSJRIrXPtNmIDCJBPwjLE=
+		5KXYWSycTToKP1I6MNcnWY6bT8Q=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -132,7 +132,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			mCvWBGQ6Ndi9RjI2Wx8DYGkqjjhdqbeUaYWuKIyrhqE=
+			N5+CkbbTaUaDr88gmerJbu7z0OHZ6rNM4JUioc5L6uI=
 			</data>
 		</dict>
 		<key>Modules/Cancer200Api.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -146,14 +146,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			rBnahKv1tTCtapHqKbdQuG1BTa4XPgMapy6EdTXkffY=
+			NFaUmYIfonMR3fmLEFNtkPNaZo1qzskxnpxcJb9+9Mc=
 			</data>
 		</dict>
 		<key>Modules/Cancer200Api.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			oDq9DXRwYU9BSW+1nppum+j4EzB6rAWsou6G9NYKG2I=
+			DPxoDriiJai1p/+n2an9u4Zo+sLu2w9xSIvuFa5GyIg=
 			</data>
 		</dict>
 		<key>Modules/Cancer200Api.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -167,14 +167,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			f/yMkXPDX2uDAeMrzMGHycuKIGgMesqc+xJEk0xVznY=
+			0bA75Ma0RsDGzn54ArOwwXq5S/D6XTEA5HWXD4BKUUs=
 			</data>
 		</dict>
 		<key>Modules/Cancer200Api.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			1vuluj+B/Jl+0/KtCTjFKh4lFIAjZV82Ku+UmOTA2h4=
+			YkdleL0S12mYcqS4i5uoqpKQPi6nSNo+RRU+NCG9RK0=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

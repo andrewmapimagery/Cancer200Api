@@ -450,6 +450,7 @@ SWIFT_CLASS("_TtC12Cancer200Api14LocationSharer")
 SWIFT_CLASS("_TtC12Cancer200Api17MapViewController")
 @interface MapViewController : UIViewController <CLLocationManagerDelegate>
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 - (void)viewWillAppear:(BOOL)animated;
 - (void)viewDidDisappear:(BOOL)animated;

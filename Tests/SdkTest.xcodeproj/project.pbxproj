@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		49277CAE2874474500A8249E /* Cancer200Api in Frameworks */ = {isa = PBXBuildFile; productRef = 49277CAD2874474500A8249E /* Cancer200Api */; };
+		49277CB02874477E00A8249E /* PKHUD in Frameworks */ = {isa = PBXBuildFile; productRef = 49277CAF2874477E00A8249E /* PKHUD */; };
+		49277CB22874478300A8249E /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 49277CB12874478300A8249E /* SnapKit */; };
+		49277CB42874478800A8249E /* SwiftLocation in Frameworks */ = {isa = PBXBuildFile; productRef = 49277CB32874478800A8249E /* SwiftLocation */; };
 		497216312871782200757710 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497216302871782200757710 /* AppDelegate.swift */; };
 		497216332871782200757710 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497216322871782200757710 /* SceneDelegate.swift */; };
 		497216352871782200757710 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497216342871782200757710 /* ViewController.swift */; };
@@ -16,10 +20,6 @@
 		49AD3D462873FE2D00356775 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49AD3D452873FE2D00356775 /* AppDelegate.swift */; };
 		49AD3D4A2873FE2D00356775 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49AD3D492873FE2D00356775 /* ViewController.swift */; };
 		49AD3D4F2873FE2F00356775 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49AD3D4E2873FE2F00356775 /* Assets.xcassets */; };
-		49AD3D5A2874014900356775 /* Cancer200Api in Frameworks */ = {isa = PBXBuildFile; productRef = 49AD3D592874014900356775 /* Cancer200Api */; };
-		49AD3D5C2874014F00356775 /* PKHUD in Frameworks */ = {isa = PBXBuildFile; productRef = 49AD3D5B2874014F00356775 /* PKHUD */; };
-		49AD3D5E2874015400356775 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 49AD3D5D2874015400356775 /* SnapKit */; };
-		49AD3D602874016700356775 /* SwiftLocation in Frameworks */ = {isa = PBXBuildFile; productRef = 49AD3D5F2874016700356775 /* SwiftLocation */; };
 		49D5229D2871D7C400C5F7E1 /* Cancer200Api in Frameworks */ = {isa = PBXBuildFile; productRef = 49D5229C2871D7C400C5F7E1 /* Cancer200Api */; };
 		49D522A22871D81700C5F7E1 /* PKHUD in Frameworks */ = {isa = PBXBuildFile; productRef = 49D522A12871D81700C5F7E1 /* PKHUD */; };
 		49D522A52871D86900C5F7E1 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 49D522A42871D86900C5F7E1 /* SnapKit */; };
@@ -59,10 +59,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				49AD3D5E2874015400356775 /* SnapKit in Frameworks */,
-				49AD3D5A2874014900356775 /* Cancer200Api in Frameworks */,
-				49AD3D5C2874014F00356775 /* PKHUD in Frameworks */,
-				49AD3D602874016700356775 /* SwiftLocation in Frameworks */,
+				49277CB22874478300A8249E /* SnapKit in Frameworks */,
+				49277CAE2874474500A8249E /* Cancer200Api in Frameworks */,
+				49277CB02874477E00A8249E /* PKHUD in Frameworks */,
+				49277CB42874478800A8249E /* SwiftLocation in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -171,10 +171,10 @@
 			);
 			name = SdkTestNoStoryboard;
 			packageProductDependencies = (
-				49AD3D592874014900356775 /* Cancer200Api */,
-				49AD3D5B2874014F00356775 /* PKHUD */,
-				49AD3D5D2874015400356775 /* SnapKit */,
-				49AD3D5F2874016700356775 /* SwiftLocation */,
+				49277CAD2874474500A8249E /* Cancer200Api */,
+				49277CAF2874477E00A8249E /* PKHUD */,
+				49277CB12874478300A8249E /* SnapKit */,
+				49277CB32874478800A8249E /* SwiftLocation */,
 			);
 			productName = SdkTestNoStoryboard;
 			productReference = 49AD3D432873FE2C00356775 /* SdkTestNoStoryboard.app */;
@@ -568,8 +568,8 @@
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/andrewmapimagery/Cancer200Api";
 			requirement = {
-				kind = exactVersion;
-				version = 2022.0.456;
+				branch = main;
+				kind = branch;
 			};
 		};
 		49D522A02871D81700C5F7E1 /* XCRemoteSwiftPackageReference "PKHUD" */ = {
@@ -599,30 +599,30 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		49AD3D572874013B00356775 /* Cancer200Api */ = {
+		49277CAD2874474500A8249E /* Cancer200Api */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 49D5229B2871D7C400C5F7E1 /* XCRemoteSwiftPackageReference "Cancer200Api" */;
 			productName = Cancer200Api;
 		};
-		49AD3D592874014900356775 /* Cancer200Api */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 49D5229B2871D7C400C5F7E1 /* XCRemoteSwiftPackageReference "Cancer200Api" */;
-			productName = Cancer200Api;
-		};
-		49AD3D5B2874014F00356775 /* PKHUD */ = {
+		49277CAF2874477E00A8249E /* PKHUD */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 49D522A02871D81700C5F7E1 /* XCRemoteSwiftPackageReference "PKHUD" */;
 			productName = PKHUD;
 		};
-		49AD3D5D2874015400356775 /* SnapKit */ = {
+		49277CB12874478300A8249E /* SnapKit */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 49D522A32871D86900C5F7E1 /* XCRemoteSwiftPackageReference "SnapKit" */;
 			productName = SnapKit;
 		};
-		49AD3D5F2874016700356775 /* SwiftLocation */ = {
+		49277CB32874478800A8249E /* SwiftLocation */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 49D522A62871D8A100C5F7E1 /* XCRemoteSwiftPackageReference "SwiftLocation" */;
 			productName = SwiftLocation;
+		};
+		49AD3D572874013B00356775 /* Cancer200Api */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 49D5229B2871D7C400C5F7E1 /* XCRemoteSwiftPackageReference "Cancer200Api" */;
+			productName = Cancer200Api;
 		};
 		49D5229C2871D7C400C5F7E1 /* Cancer200Api */ = {
 			isa = XCSwiftPackageProductDependency;

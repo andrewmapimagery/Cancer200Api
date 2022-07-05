@@ -18,7 +18,7 @@
 		</data>
 		<key>Headers/Cancer200Api-Swift.h</key>
 		<data>
-		T9SCx+Q8/7v8NpGxhproOMiHELY=
+		RdHNM4nm/hoNzFHpAL0Ee8R/HW8=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -30,11 +30,11 @@
 		</data>
 		<key>Modules/Cancer200Api.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		6BeaKXdlr5pC5w2VA/vjpi9pSh8=
+		ZUmz6lhyHOpJw2DXhcbFTil9ims=
 		</data>
 		<key>Modules/Cancer200Api.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		XWgGdWU/a4CR/rDAvcRbh0OQXuY=
+		5iOYoAe/3WK7xBycw5kLeZAGWmE=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -120,7 +120,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			z6YS9qXBc2RzdoXQco3VXFn9EP+S8CRLHN6J9KrfqEY=
+			u7dxS8t1Yr2RoT/STfNDLOaW4i24GH9aNZAeVcseFgo=
 			</data>
 		</dict>
 		<key>Modules/Cancer200Api.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -134,14 +134,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			UcNvg6FhtWcuCpU3LNzmHwt3dTs1GCVaau/wFbAFLjc=
+			QB0zVxWrt2Ii2/ufw/4zIc80P15m6HFzQla0k++xHIs=
 			</data>
 		</dict>
 		<key>Modules/Cancer200Api.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			OZjuCZlCB/Zj9GF9nhy78dsF6wi8Hweee090Qljxk3Y=
+			dbtwZzlcJgdggFQaAx9LNUP+VfI5nWwvVjpctX5SNoA=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

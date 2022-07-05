@@ -4191,6 +4191,7 @@ extension Cancer200Api.ImageProtocol where Self.Element : Cancer200Api._NumericP
 @objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) open class MapViewController : UIKit.UIViewController, CoreLocation.CLLocationManagerDelegate {
   @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
   @_Concurrency.MainActor(unsafe) public init(mapView: MapKit.MKMapView)
+  @objc dynamic public init()
   @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
   @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewWillAppear(_ animated: Swift.Bool)
   @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidDisappear(_ animated: Swift.Bool)
