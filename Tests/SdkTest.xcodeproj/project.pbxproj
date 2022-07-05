@@ -480,7 +480,11 @@
 				DEVELOPMENT_TEAM = T9242RU4GB;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SdkTestNoStoryboard/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Location services 'Always' are required if you want to show your position on the map when the app is in background. Location services 'While Using the App' are required if you want to use the app to navigate using the dashboard or map.";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "Location services 'Always' are required if you want to share your position on the map when the app is in background.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Location services 'While Using the App' are required if you want to use the app to navigate using the dashboard or map.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
@@ -507,7 +511,11 @@
 				DEVELOPMENT_TEAM = T9242RU4GB;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SdkTestNoStoryboard/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Location services 'Always' are required if you want to show your position on the map when the app is in background. Location services 'While Using the App' are required if you want to use the app to navigate using the dashboard or map.";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "Location services 'Always' are required if you want to share your position on the map when the app is in background.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Location services 'While Using the App' are required if you want to use the app to navigate using the dashboard or map.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
@@ -561,8 +569,8 @@
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/andrewmapimagery/Cancer200Api";
 			requirement = {
-				kind = revision;
-				revision = 1b0281fa27f54c842f7a17c9cf3bbb2f32875f99;
+				kind = upToNextMajorVersion;
+				minimumVersion = 2022.0.462;
 			};
 		};
 		49D5229B2871D7C400C5F7E1 /* XCRemoteSwiftPackageReference "Cancer200Api" */ = {
