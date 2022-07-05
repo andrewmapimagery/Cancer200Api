@@ -13,6 +13,13 @@
 		497216382871782200757710 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 497216362871782200757710 /* Main.storyboard */; };
 		4972163A2871782400757710 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 497216392871782400757710 /* Assets.xcassets */; };
 		4972163D2871782400757710 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4972163B2871782400757710 /* LaunchScreen.storyboard */; };
+		49AD3D462873FE2D00356775 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49AD3D452873FE2D00356775 /* AppDelegate.swift */; };
+		49AD3D4A2873FE2D00356775 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49AD3D492873FE2D00356775 /* ViewController.swift */; };
+		49AD3D4F2873FE2F00356775 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49AD3D4E2873FE2F00356775 /* Assets.xcassets */; };
+		49AD3D5A2874014900356775 /* Cancer200Api in Frameworks */ = {isa = PBXBuildFile; productRef = 49AD3D592874014900356775 /* Cancer200Api */; };
+		49AD3D5C2874014F00356775 /* PKHUD in Frameworks */ = {isa = PBXBuildFile; productRef = 49AD3D5B2874014F00356775 /* PKHUD */; };
+		49AD3D5E2874015400356775 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 49AD3D5D2874015400356775 /* SnapKit */; };
+		49AD3D602874016700356775 /* SwiftLocation in Frameworks */ = {isa = PBXBuildFile; productRef = 49AD3D5F2874016700356775 /* SwiftLocation */; };
 		49D5229D2871D7C400C5F7E1 /* Cancer200Api in Frameworks */ = {isa = PBXBuildFile; productRef = 49D5229C2871D7C400C5F7E1 /* Cancer200Api */; };
 		49D522A22871D81700C5F7E1 /* PKHUD in Frameworks */ = {isa = PBXBuildFile; productRef = 49D522A12871D81700C5F7E1 /* PKHUD */; };
 		49D522A52871D86900C5F7E1 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 49D522A42871D86900C5F7E1 /* SnapKit */; };
@@ -28,6 +35,11 @@
 		497216392871782400757710 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4972163C2871782400757710 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4972163E2871782400757710 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49AD3D432873FE2C00356775 /* SdkTestNoStoryboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SdkTestNoStoryboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		49AD3D452873FE2D00356775 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		49AD3D492873FE2D00356775 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		49AD3D4E2873FE2F00356775 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		49AD3D532873FE2F00356775 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		49D5228E2871CE9200C5F7E1 /* SdkTest.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SdkTest.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -43,6 +55,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		49AD3D402873FE2C00356775 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49AD3D5E2874015400356775 /* SnapKit in Frameworks */,
+				49AD3D5A2874014900356775 /* Cancer200Api in Frameworks */,
+				49AD3D5C2874014F00356775 /* PKHUD in Frameworks */,
+				49AD3D602874016700356775 /* SwiftLocation in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -51,6 +74,7 @@
 			children = (
 				49D5227628717C0100C5F7E1 /* Packages */,
 				4972162F2871782200757710 /* SdkTest */,
+				49AD3D442873FE2C00356775 /* SdkTestNoStoryboard */,
 				4972162E2871782200757710 /* Products */,
 				49D522802871C2E100C5F7E1 /* Frameworks */,
 			);
@@ -60,6 +84,7 @@
 			isa = PBXGroup;
 			children = (
 				4972162D2871782200757710 /* SdkTest.app */,
+				49AD3D432873FE2C00356775 /* SdkTestNoStoryboard.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -77,6 +102,17 @@
 				4972163E2871782400757710 /* Info.plist */,
 			);
 			path = SdkTest;
+			sourceTree = "<group>";
+		};
+		49AD3D442873FE2C00356775 /* SdkTestNoStoryboard */ = {
+			isa = PBXGroup;
+			children = (
+				49AD3D452873FE2D00356775 /* AppDelegate.swift */,
+				49AD3D492873FE2D00356775 /* ViewController.swift */,
+				49AD3D4E2873FE2F00356775 /* Assets.xcassets */,
+				49AD3D532873FE2F00356775 /* Info.plist */,
+			);
+			path = SdkTestNoStoryboard;
 			sourceTree = "<group>";
 		};
 		49D5227628717C0100C5F7E1 /* Packages */ = {
@@ -120,6 +156,30 @@
 			productReference = 4972162D2871782200757710 /* SdkTest.app */;
 			productType = "com.apple.product-type.application";
 		};
+		49AD3D422873FE2C00356775 /* SdkTestNoStoryboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49AD3D542873FE2F00356775 /* Build configuration list for PBXNativeTarget "SdkTestNoStoryboard" */;
+			buildPhases = (
+				49AD3D3F2873FE2C00356775 /* Sources */,
+				49AD3D402873FE2C00356775 /* Frameworks */,
+				49AD3D412873FE2C00356775 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				49AD3D582874013B00356775 /* PBXTargetDependency */,
+			);
+			name = SdkTestNoStoryboard;
+			packageProductDependencies = (
+				49AD3D592874014900356775 /* Cancer200Api */,
+				49AD3D5B2874014F00356775 /* PKHUD */,
+				49AD3D5D2874015400356775 /* SnapKit */,
+				49AD3D5F2874016700356775 /* SwiftLocation */,
+			);
+			productName = SdkTestNoStoryboard;
+			productReference = 49AD3D432873FE2C00356775 /* SdkTestNoStoryboard.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -127,11 +187,14 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1320;
+				LastSwiftUpdateCheck = 1340;
 				LastUpgradeCheck = 1320;
 				TargetAttributes = {
 					4972162C2871782200757710 = {
 						CreatedOnToolsVersion = 13.2.1;
+					};
+					49AD3D422873FE2C00356775 = {
+						CreatedOnToolsVersion = 13.4.1;
 					};
 				};
 			};
@@ -155,6 +218,7 @@
 			projectRoot = "";
 			targets = (
 				4972162C2871782200757710 /* SdkTest */,
+				49AD3D422873FE2C00356775 /* SdkTestNoStoryboard */,
 			);
 		};
 /* End PBXProject section */
@@ -167,6 +231,14 @@
 				4972163D2871782400757710 /* LaunchScreen.storyboard in Resources */,
 				4972163A2871782400757710 /* Assets.xcassets in Resources */,
 				497216382871782200757710 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49AD3D412873FE2C00356775 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49AD3D4F2873FE2F00356775 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -183,9 +255,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		49AD3D3F2873FE2C00356775 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49AD3D4A2873FE2D00356775 /* ViewController.swift in Sources */,
+				49AD3D462873FE2D00356775 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		49AD3D582874013B00356775 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			productRef = 49AD3D572874013B00356775 /* Cancer200Api */;
+		};
 		49D5229F2871D7DE00C5F7E1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			productRef = 49D5229E2871D7DE00C5F7E1 /* Cancer200Api */;
@@ -392,6 +477,60 @@
 			};
 			name = Release;
 		};
+		49AD3D552873FE2F00356775 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T9242RU4GB;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SdkTestNoStoryboard/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mapimagery.SdkTestNoStoryboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		49AD3D562873FE2F00356775 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T9242RU4GB;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SdkTestNoStoryboard/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mapimagery.SdkTestNoStoryboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -413,6 +552,15 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		49AD3D542873FE2F00356775 /* Build configuration list for PBXNativeTarget "SdkTestNoStoryboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49AD3D552873FE2F00356775 /* Debug */,
+				49AD3D562873FE2F00356775 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
@@ -420,8 +568,8 @@
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/andrewmapimagery/Cancer200Api";
 			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 2022.0.0;
+				kind = exactVersion;
+				version = 2022.0.456;
 			};
 		};
 		49D522A02871D81700C5F7E1 /* XCRemoteSwiftPackageReference "PKHUD" */ = {
@@ -451,6 +599,31 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		49AD3D572874013B00356775 /* Cancer200Api */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 49D5229B2871D7C400C5F7E1 /* XCRemoteSwiftPackageReference "Cancer200Api" */;
+			productName = Cancer200Api;
+		};
+		49AD3D592874014900356775 /* Cancer200Api */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 49D5229B2871D7C400C5F7E1 /* XCRemoteSwiftPackageReference "Cancer200Api" */;
+			productName = Cancer200Api;
+		};
+		49AD3D5B2874014F00356775 /* PKHUD */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 49D522A02871D81700C5F7E1 /* XCRemoteSwiftPackageReference "PKHUD" */;
+			productName = PKHUD;
+		};
+		49AD3D5D2874015400356775 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 49D522A32871D86900C5F7E1 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		49AD3D5F2874016700356775 /* SwiftLocation */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 49D522A62871D8A100C5F7E1 /* XCRemoteSwiftPackageReference "SwiftLocation" */;
+			productName = SwiftLocation;
+		};
 		49D5229C2871D7C400C5F7E1 /* Cancer200Api */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 49D5229B2871D7C400C5F7E1 /* XCRemoteSwiftPackageReference "Cancer200Api" */;
