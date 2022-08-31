@@ -34,7 +34,7 @@
 		</data>
 		<key>Modules/Cancer200Api.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		5iOYoAe/3WK7xBycw5kLeZAGWmE=
+		ViYYm8GtLeuGy4eDer3X660gFdw=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -79,6 +79,10 @@
 		<key>cancer_200_ride_2021.gpx</key>
 		<data>
 		axnhQ1TuxYREBQ8yTxF85avSyGE=
+		</data>
+		<key>cancer_200_ride_2022.gpx</key>
+		<data>
+		aUIW8oWY8kEmhp96LjfmEYidBrg=
 		</data>
 		<key>cyclist_base.png</key>
 		<data>
@@ -141,7 +145,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			dbtwZzlcJgdggFQaAx9LNUP+VfI5nWwvVjpctX5SNoA=
+			m6YeiNAvDheRXCA2F9BKkVZ7E+vTIu9B6PTZE4C4faA=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -219,6 +223,13 @@
 			<key>hash2</key>
 			<data>
 			akMltIbkZa88L/6I0ClrFajntgIMh7hd8YaUuE/Sj6w=
+			</data>
+		</dict>
+		<key>cancer_200_ride_2022.gpx</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			KNuUsn5bIVGaFngQnKzpPsRRHabNceHyD8l1ai6CHNY=
 			</data>
 		</dict>
 		<key>cyclist_base.png</key>
