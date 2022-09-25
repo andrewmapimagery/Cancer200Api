@@ -1,41 +1,43 @@
 {
-  "pins" : [
-    {
-      "identity" : "cancer200api",
-      "kind" : "remoteSourceControl",
-      "location" : "https://github.com/andrewmapimagery/Cancer200Api",
-      "state" : {
-        "revision" : "c9a848d1549881150887f4541dc6c445626ab375",
-        "version" : "2022.0.463"
+  "object": {
+    "pins": [
+      {
+        "package": "Cancer200Api",
+        "repositoryURL": "https://github.com/andrewmapimagery/Cancer200Api.git",
+        "state": {
+          "branch": null,
+          "revision": "4b45775c7035e8e2bd89c63e41e71fe6bfa804e5",
+          "version": "2022.2.469"
+        }
+      },
+      {
+        "package": "PKHUD",
+        "repositoryURL": "https://github.com/pkluz/PKHUD.git",
+        "state": {
+          "branch": null,
+          "revision": "8fd26f23057c6bebd6695524b1c3e05e93aba571",
+          "version": "5.4.0"
+        }
+      },
+      {
+        "package": "SnapKit",
+        "repositoryURL": "https://github.com/SnapKit/SnapKit.git",
+        "state": {
+          "branch": null,
+          "revision": "f222cbdf325885926566172f6f5f06af95473158",
+          "version": "5.6.0"
+        }
+      },
+      {
+        "package": "SwiftLocation",
+        "repositoryURL": "https://github.com/malcommac/SwiftLocation.git",
+        "state": {
+          "branch": null,
+          "revision": "f8ec8e97095eb3a5312370ad94b921768217625f",
+          "version": "5.1.0"
+        }
       }
-    },
-    {
-      "identity" : "pkhud",
-      "kind" : "remoteSourceControl",
-      "location" : "https://github.com/pkluz/PKHUD.git",
-      "state" : {
-        "revision" : "8fd26f23057c6bebd6695524b1c3e05e93aba571",
-        "version" : "5.4.0"
-      }
-    },
-    {
-      "identity" : "snapkit",
-      "kind" : "remoteSourceControl",
-      "location" : "https://github.com/SnapKit/SnapKit.git",
-      "state" : {
-        "revision" : "f222cbdf325885926566172f6f5f06af95473158",
-        "version" : "5.6.0"
-      }
-    },
-    {
-      "identity" : "swiftlocation",
-      "kind" : "remoteSourceControl",
-      "location" : "https://github.com/malcommac/SwiftLocation.git",
-      "state" : {
-        "revision" : "f8ec8e97095eb3a5312370ad94b921768217625f",
-        "version" : "5.1.0"
-      }
-    }
-  ],
-  "version" : 2
+    ]
+  },
+  "version": 1
 }

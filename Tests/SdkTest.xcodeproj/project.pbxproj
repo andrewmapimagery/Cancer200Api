@@ -7,10 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4910317B28E038340064B2C0 /* Cancer200Api in Frameworks */ = {isa = PBXBuildFile; productRef = 4910317A28E038340064B2C0 /* Cancer200Api */; };
 		49277CB02874477E00A8249E /* PKHUD in Frameworks */ = {isa = PBXBuildFile; productRef = 49277CAF2874477E00A8249E /* PKHUD */; };
 		49277CB22874478300A8249E /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 49277CB12874478300A8249E /* SnapKit */; };
 		49277CB42874478800A8249E /* SwiftLocation in Frameworks */ = {isa = PBXBuildFile; productRef = 49277CB32874478800A8249E /* SwiftLocation */; };
-		49277CBF287465F300A8249E /* Cancer200Api in Frameworks */ = {isa = PBXBuildFile; productRef = 49277CBE287465F300A8249E /* Cancer200Api */; };
 		497216312871782200757710 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497216302871782200757710 /* AppDelegate.swift */; };
 		497216332871782200757710 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497216322871782200757710 /* SceneDelegate.swift */; };
 		497216352871782200757710 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497216342871782200757710 /* ViewController.swift */; };
@@ -45,7 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				49277CBF287465F300A8249E /* Cancer200Api in Frameworks */,
+				4910317B28E038340064B2C0 /* Cancer200Api in Frameworks */,
 				49D522A52871D86900C5F7E1 /* SnapKit in Frameworks */,
 				49D522A22871D81700C5F7E1 /* PKHUD in Frameworks */,
 				49D522A82871D8A100C5F7E1 /* SwiftLocation in Frameworks */,
@@ -145,7 +145,7 @@
 				49D522A12871D81700C5F7E1 /* PKHUD */,
 				49D522A42871D86900C5F7E1 /* SnapKit */,
 				49D522A72871D8A100C5F7E1 /* SwiftLocation */,
-				49277CBE287465F300A8249E /* Cancer200Api */,
+				4910317A28E038340064B2C0 /* Cancer200Api */,
 			);
 			productName = SdkTest;
 			productReference = 4972162D2871782200757710 /* SdkTest.app */;
@@ -205,7 +205,7 @@
 				49D522A02871D81700C5F7E1 /* XCRemoteSwiftPackageReference "PKHUD" */,
 				49D522A32871D86900C5F7E1 /* XCRemoteSwiftPackageReference "SnapKit" */,
 				49D522A62871D8A100C5F7E1 /* XCRemoteSwiftPackageReference "SwiftLocation" */,
-				49277CBD287465F300A8249E /* XCRemoteSwiftPackageReference "Cancer200Api" */,
+				4910317928E038340064B2C0 /* XCRemoteSwiftPackageReference "Cancer200Api" */,
 			);
 			productRefGroup = 4972162E2871782200757710 /* Products */;
 			projectDirPath = "";
@@ -565,12 +565,12 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		49277CBD287465F300A8249E /* XCRemoteSwiftPackageReference "Cancer200Api" */ = {
+		4910317928E038340064B2C0 /* XCRemoteSwiftPackageReference "Cancer200Api" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/andrewmapimagery/Cancer200Api";
+			repositoryURL = "https://github.com/andrewmapimagery/Cancer200Api.git";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 2022.0.462;
+				minimumVersion = 2022.0.0;
 			};
 		};
 		49D5229B2871D7C400C5F7E1 /* XCRemoteSwiftPackageReference "Cancer200Api" */ = {
@@ -608,6 +608,11 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		4910317A28E038340064B2C0 /* Cancer200Api */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4910317928E038340064B2C0 /* XCRemoteSwiftPackageReference "Cancer200Api" */;
+			productName = Cancer200Api;
+		};
 		49277CAF2874477E00A8249E /* PKHUD */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 49D522A02871D81700C5F7E1 /* XCRemoteSwiftPackageReference "PKHUD" */;
@@ -622,11 +627,6 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 49D522A62871D8A100C5F7E1 /* XCRemoteSwiftPackageReference "SwiftLocation" */;
 			productName = SwiftLocation;
-		};
-		49277CBE287465F300A8249E /* Cancer200Api */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 49277CBD287465F300A8249E /* XCRemoteSwiftPackageReference "Cancer200Api" */;
-			productName = Cancer200Api;
 		};
 		49AD3D572874013B00356775 /* Cancer200Api */ = {
 			isa = XCSwiftPackageProductDependency;
