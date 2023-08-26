@@ -1,6 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.5.2 (swiftlang-1300.0.47.5 clang-1300.0.29.30)
+// swift-compiler-version: Apple Swift version 5.7.1 (swiftlang-5.7.1.135.3 clang-1400.0.29.51)
 // swift-module-flags: -target arm64-apple-ios12.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name Cancer200Api
+// swift-module-flags-ignorable: -enable-bare-slash-regex
 import CoreGraphics
 import CoreImage
 import CoreLocation
@@ -14,6 +15,7 @@ import SwiftLocation
 import UIKit
 import UniformTypeIdentifiers
 import _Concurrency
+import _StringProcessing
 final public class FormRowDescriptor {
   public enum RowType {
     case unknown
@@ -124,7 +126,7 @@ extension Cancer200Api.Image {
   @_Concurrency.MainActor(unsafe) open func constraintsViews() -> [Swift.String : UIKit.UIView]
   @_Concurrency.MainActor(unsafe) open func firstResponderElement() -> UIKit.UIResponder?
   @_Concurrency.MainActor(unsafe) open func inputAccesoryView() -> UIKit.UIToolbar
-  @_Concurrency.MainActor(unsafe) open class func formRowCellHeight() -> CoreGraphics.CGFloat
+  @_Concurrency.MainActor(unsafe) open class func formRowCellHeight() -> CoreFoundation.CGFloat
   @_Concurrency.MainActor(unsafe) open class func formRowCanBecomeFirstResponder() -> Swift.Bool
   @_Concurrency.MainActor(unsafe) open class func formViewController(_ formViewController: Cancer200Api.FormViewController, didSelectRow: Cancer200Api.FormBaseCell)
   @_Concurrency.MainActor(unsafe) @objc override dynamic open func updateConstraints()
@@ -219,12 +221,12 @@ public struct CurrentVector : Swift.Codable {
 }
 @objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) open class FormOptionsSelectorController : UIKit.UITableViewController, Cancer200Api.FormSelector {
   @_Concurrency.MainActor(unsafe) @objc open var formCell: Cancer200Api.FormBaseCell?
-  @objc dynamic public init()
+  @_Concurrency.MainActor(unsafe) @objc dynamic public init()
   @_Concurrency.MainActor(unsafe) @objc required dynamic public init(coder aDecoder: Foundation.NSCoder)
   @_Concurrency.MainActor(unsafe) @objc override dynamic open func viewDidLoad()
   @_Concurrency.MainActor(unsafe) @objc override dynamic open func numberOfSections(in tableView: UIKit.UITableView) -> Swift.Int
   @_Concurrency.MainActor(unsafe) @objc override dynamic open func tableView(_ tableView: UIKit.UITableView, numberOfRowsInSection section: Swift.Int) -> Swift.Int
-  @_Concurrency.MainActor(unsafe) @objc override dynamic open func tableView(_ tableView: UIKit.UITableView, heightForHeaderInSection section: Swift.Int) -> CoreGraphics.CGFloat
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open func tableView(_ tableView: UIKit.UITableView, heightForHeaderInSection section: Swift.Int) -> CoreFoundation.CGFloat
   @_Concurrency.MainActor(unsafe) @objc override dynamic open func tableView(_ tableView: UIKit.UITableView, cellForRowAt indexPath: Foundation.IndexPath) -> UIKit.UITableViewCell
   @_Concurrency.MainActor(unsafe) @objc override dynamic open func tableView(_ tableView: UIKit.UITableView, didSelectRowAt indexPath: Foundation.IndexPath)
   @objc deinit
@@ -548,8 +550,8 @@ final public class FormSectionDescriptor {
   final public var footerTitle: Swift.String?
   final public var headerView: UIKit.UIView?
   final public var footerView: UIKit.UIView?
-  final public var headerViewHeight: CoreGraphics.CGFloat
-  final public var footerViewHeight: CoreGraphics.CGFloat
+  final public var headerViewHeight: CoreFoundation.CGFloat
+  final public var footerViewHeight: CoreFoundation.CGFloat
   public init(headerTitle: Swift.String?, footerTitle: Swift.String?)
   @objc deinit
 }
@@ -1131,7 +1133,7 @@ extension Cancer200Api.RGBA where Channel == Swift.Bool {
 }
 public protocol ImageProtocol : Swift.Sequence {
   typealias Pixel = Self.Element
-  associatedtype SubImage : Cancer200Api.ImageProtocol where Self.Element == Self.SubImage.Element, Self.SubImage.Element == Self.SubImage.SubImage.Element
+  associatedtype SubImage : Cancer200Api.ImageProtocol where Self.Element == Self.SubImage.Element
   init(width: Swift.Int, height: Swift.Int, pixels: [Self.Pixel])
   var width: Swift.Int { get }
   var height: Swift.Int { get }
@@ -3917,7 +3919,7 @@ extension Cancer200Api.ImageSlice {
 }
 @objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) open class FormViewController : UIKit.UITableViewController {
   @_Concurrency.MainActor(unsafe) open var form: Cancer200Api.FormDescriptor
-  @objc convenience dynamic public init()
+  @_Concurrency.MainActor(unsafe) @objc convenience dynamic public init()
   @_Concurrency.MainActor(unsafe) convenience public init(form: Cancer200Api.FormDescriptor)
   @_Concurrency.MainActor(unsafe) @objc override dynamic public init(style: UIKit.UITableView.Style)
   @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
@@ -3932,9 +3934,9 @@ extension Cancer200Api.ImageSlice {
   @_Concurrency.MainActor(unsafe) @objc override dynamic open func tableView(_ tableView: UIKit.UITableView, titleForFooterInSection section: Swift.Int) -> Swift.String?
   @_Concurrency.MainActor(unsafe) @objc override dynamic open func tableView(_ tableView: UIKit.UITableView, viewForFooterInSection section: Swift.Int) -> UIKit.UIView?
   @_Concurrency.MainActor(unsafe) @objc override dynamic open func tableView(_ tableView: UIKit.UITableView, viewForHeaderInSection section: Swift.Int) -> UIKit.UIView?
-  @_Concurrency.MainActor(unsafe) @objc override dynamic open func tableView(_ tableView: UIKit.UITableView, heightForHeaderInSection section: Swift.Int) -> CoreGraphics.CGFloat
-  @_Concurrency.MainActor(unsafe) @objc override dynamic open func tableView(_ tableView: UIKit.UITableView, heightForFooterInSection section: Swift.Int) -> CoreGraphics.CGFloat
-  @_Concurrency.MainActor(unsafe) @objc override dynamic open func tableView(_ tableView: UIKit.UITableView, heightForRowAt indexPath: Foundation.IndexPath) -> CoreGraphics.CGFloat
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open func tableView(_ tableView: UIKit.UITableView, heightForHeaderInSection section: Swift.Int) -> CoreFoundation.CGFloat
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open func tableView(_ tableView: UIKit.UITableView, heightForFooterInSection section: Swift.Int) -> CoreFoundation.CGFloat
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open func tableView(_ tableView: UIKit.UITableView, heightForRowAt indexPath: Foundation.IndexPath) -> CoreFoundation.CGFloat
   @_Concurrency.MainActor(unsafe) @objc override dynamic open func tableView(_ tableView: UIKit.UITableView, didSelectRowAt indexPath: Foundation.IndexPath)
   @objc deinit
 }
@@ -4191,7 +4193,7 @@ extension Cancer200Api.ImageProtocol where Self.Element : Cancer200Api._NumericP
 @objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) open class MapViewController : UIKit.UIViewController, CoreLocation.CLLocationManagerDelegate {
   @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
   @_Concurrency.MainActor(unsafe) public init(mapView: MapKit.MKMapView)
-  @objc dynamic public init()
+  @_Concurrency.MainActor(unsafe) @objc dynamic public init()
   @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
   @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewWillAppear(_ animated: Swift.Bool)
   @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidDisappear(_ animated: Swift.Bool)
@@ -4199,8 +4201,8 @@ extension Cancer200Api.ImageProtocol where Self.Element : Cancer200Api._NumericP
   @_Concurrency.MainActor(unsafe) @objc public func locationManager(_ manager: CoreLocation.CLLocationManager, didChangeAuthorization status: CoreLocation.CLAuthorizationStatus)
   @_Concurrency.MainActor(unsafe) @objc override dynamic public func didReceiveMemoryWarning()
   @_Concurrency.MainActor(unsafe) @objc override dynamic public var tabBarItem: UIKit.UITabBarItem! {
-    @_Concurrency.MainActor(unsafe) @objc get
-    @_Concurrency.MainActor(unsafe) @objc set(newValue)
+    @objc get
+    @objc set(newValue)
   }
   @objc deinit
 }
@@ -4546,7 +4548,7 @@ extension Cancer200Api.ImageProtocol where Self.Element : Cancer200Api._NumericP
 @objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) open class FormTextViewCell : Cancer200Api.FormBaseCell, UIKit.UITextViewDelegate {
   @objc @_Concurrency.MainActor(unsafe) final public let titleLabel: UIKit.UILabel
   @objc @_Concurrency.MainActor(unsafe) final public let textField: UIKit.UITextView
-  @_Concurrency.MainActor(unsafe) override open class func formRowCellHeight() -> CoreGraphics.CGFloat
+  @_Concurrency.MainActor(unsafe) override open class func formRowCellHeight() -> CoreFoundation.CGFloat
   @_Concurrency.MainActor(unsafe) override open func configure()
   @_Concurrency.MainActor(unsafe) override open func update()
   @_Concurrency.MainActor(unsafe) override open func constraintsViews() -> [Swift.String : UIKit.UIView]
